@@ -13,7 +13,7 @@ Clone or download this repository into the desired location on your machine. CD 
 
 ### 2. Setting up Client / Server sides of app
 
-In separate terminal windows, change into the respective directory you are trying to set up and perform the following:
+In separate terminal windows, change into the respective directory (league_app_client or league_app_server) you are trying to set up and perform the following:
 
 Run the following code in the file directory to install dependencies:
 ```
@@ -26,6 +26,7 @@ The installation might take several minutes.  If successful, the respective dire
 Execute the following to start up the client side app:
 
 <strong>Client Side App</strong>
+
 Run the following code to start up the app:
 ```
 npm start
@@ -33,6 +34,7 @@ npm start
 If successful, you should be able to visit "http://localhost:3000/" to see the app.
 
 <strong>Server Side App</strong>
+
 Run the following code to start up the server side of app:
 
 ```

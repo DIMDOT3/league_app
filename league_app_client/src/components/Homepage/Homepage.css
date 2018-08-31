@@ -1,0 +1,16 @@
+.home-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../../images/todd-diemer-558889-unsplash.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.home-content {
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 0 25px;
+}

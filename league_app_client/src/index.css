@@ -1,0 +1,105 @@
+/*
+  If you prefer your CSS Sassy. Run npm install -s node-sass and change the extension and import of this file.
+  Or use Less or whatever form of styling brings you the most Joy. Bonus points for following a CSS methodology. (BEM, OOCSS, ETC)
+*/
+
+body, html {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Raleway', sans-serif;
+  background-color: #efefef !important;
+}
+
+form {
+  margin-bottom: 0;
+  min-width: 300px;
+}
+
+label {
+  margin-bottom: 0 !important;
+}
+
+input {
+  border-radius: 3px;
+  border-style: none;
+  padding: .375rem .75rem;
+  margin: 3.5px !important;
+  width: 100%;
+}
+
+button {
+  width: 150px;
+}
+
+a {
+  color: white !important;
+  cursor: pointer;
+}
+
+.btn {
+  margin: 2.5px;
+}
+
+.main-container {
+  height: calc(100% - 65px);
+  margin-top: 65px;
+}
+
+.main-container > h1 {
+  text-align: center;
+}
+
+.main-container > h2 {
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.flex-row-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label-text {
+  display: none;
+}
+
+
+/* Animation css*/
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+@media screen and (max-width: 767px){
+}

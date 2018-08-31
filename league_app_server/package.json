@@ -1,0 +1,15 @@
+{
+  "name": "league_app_server",
+  "version": "1.0.0",
+  "description": "league app server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Dinh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}

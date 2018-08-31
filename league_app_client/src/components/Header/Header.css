@@ -1,0 +1,19 @@
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  z-index: 2;
+}
+
+.message {
+  top: 65px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.flex-row-end > p {
+  margin: 0 12px 0 0;
+
+}
